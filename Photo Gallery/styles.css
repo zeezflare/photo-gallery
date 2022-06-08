@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background: #ecf4fb;
+}
+h1{
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 30px ;
+}
+.img-gallery{
+    width: 80%;
+    margin: 100px auto 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+}
+.img-gallery img{
+    width: 100%;
+    cursor: pointer;
+} 
+.img-gallery img:hover{
+    transform: scale(2,2)
+}
+/*--cars--*/
+.car-gallery{
+    width: 80%;
+    margin: 100px auto 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+}
+.car-gallery img{
+    width: 100%;
+    cursor: pointer;
+} 
+.car-gallery img:hover{
+    transform: scale(2,2)
+}
